@@ -4,6 +4,7 @@ var flag =0;
 for (var i = 0; i < emails.length;i++) {
     if(user_email==emails[i]){
         flag =1;
+        i=emails.length;
     }
 }
 if(flag==1){
