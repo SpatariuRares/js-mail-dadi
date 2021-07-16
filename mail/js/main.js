@@ -7,8 +7,8 @@ for (var i = 0; i < emails.length;i++) {
     }
 }
 if(flag==1){
-    console.log("entra")
+    document.getElementById("message").innerHTML="entra";
 }
 else{
-    console.log("via da qui");
+    document.getElementById("message").innerHTML="via da qui";
 }
