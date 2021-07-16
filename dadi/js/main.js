@@ -8,5 +8,3 @@ if (numero_giocatore>numero_pc){
 }else{
     document.getElementById("message").innerHTML="hai fatto " + numero_giocatore +" il pc ha fatto " + numero_pc+" hai parregiato"
 }
-
-
